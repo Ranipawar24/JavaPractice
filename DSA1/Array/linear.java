@@ -13,4 +13,5 @@ public class linear {
         System.out.println(marks[2]);
 
     }
+
 }
