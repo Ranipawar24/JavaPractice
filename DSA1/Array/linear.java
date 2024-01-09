@@ -1,4 +1,4 @@
-package DSA1.Array;
+package DSA1.Array; // its a folder which my java files lies
 
 public class linear {
     // defining array
