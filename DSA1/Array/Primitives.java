@@ -8,6 +8,8 @@ public class Primitives {
         double largDeciNum = 45852116.4587;
         long largeInt = 235784544554455L;
         boolean check = false;
+        // primitives stores in stacks memomry and all onjects and classes, string, arry
+        // are stored in heap memory
 
     }
 }
