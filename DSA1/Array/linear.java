@@ -6,7 +6,9 @@ public class linear {
     // defining array
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int marks[] = new int[3];
+        int marks[] = new int[5];
+
+        // THIS IS ARRAY OF PREMITIVES
         // marks[0] = 85;// phy
 
         // marks[1] = 89;// math
@@ -29,7 +31,9 @@ public class linear {
         for (int num : marks) { // for every element in the marks , print the marks
             System.out.print(num + " "); // here num represents element of the marks
         }
+        System.out.println(marks[6]);
 
+        // THIS IS ARRAY OF OBJECTS
     }
 
 }
