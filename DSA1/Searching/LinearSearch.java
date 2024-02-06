@@ -12,6 +12,7 @@ public class LinearSearch {
     }
 
     public static int LinearSearch1(int[] arr, int target) {
+        System.out.println(target);
 
     }
 
