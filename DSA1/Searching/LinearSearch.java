@@ -18,12 +18,12 @@ public class LinearSearch {
     }
 
     public static int LinearSearch1(int[] num, int target) {
-        for (int i = 0; i < num.length; i++) {
-            if (num[i] == target) {
-                return i;
-            }
-        }
-        return -1;
+        // for (int i = 0; i < num.length; i++) {
+        // if (num[i] == target) {
+        // return i;
+        // }
+        // }
+        // return -1;
 
     }
 
