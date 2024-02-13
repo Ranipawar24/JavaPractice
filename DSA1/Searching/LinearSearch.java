@@ -7,7 +7,7 @@ public class LinearSearch {
         // TIME COMPLEXCITY = O(N)
         // SPACE COMPLEXCITY = O(1)
         int[] num = { 1, 25, 23, 2, 4, 8 };
-        int target = 20;
+        int target = 2;
         int index = LinearSearch1(num, target);
         if (index == -1) {
             System.out.println("Not found");
