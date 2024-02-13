@@ -24,7 +24,6 @@ public class LinearSearch {
             }
         }
         return -1;
-        // if not found then its printed -1
 
     }
 
