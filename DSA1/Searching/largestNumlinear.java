@@ -8,8 +8,8 @@ public class largestNumlinear {
     }
 
     public static int getLargest(int num[]) {
-        int largest = Integer.MIN_VALUE; // -infinity
-        int smallest = Integer.MAX_VALUE; // +infinity
+        int largest = Integer.MIN_VALUE; // -infinity LARGEST
+        int smallest = Integer.MAX_VALUE; // +infinity SMALLEST
         for (int i = 0; i < num.length; i++) {
             if (largest < num[i]) {
                 largest = num[i];
