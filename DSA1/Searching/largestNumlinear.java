@@ -1,6 +1,7 @@
 package DSA1.Searching;
 
 public class largestNumlinear {
+    // find largest and smallest numbers
     public static void main(String[] args) {
         int num[] = { 1, 33, 5, 8, 6, 9 };
         System.out.println("largest value is : " + getLargest(num));
@@ -21,6 +22,5 @@ public class largestNumlinear {
         System.out.println("smallest value is : " + smallest);
         return largest;
 
-        //
     }
 }
