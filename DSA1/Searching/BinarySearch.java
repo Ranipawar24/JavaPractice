@@ -15,6 +15,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         int num[] = { 2, 4, 8, 10, 12, 14, 18 };
         int key = 10;
+        System.out.println("Index for key is : " + binarySearch(num, key));
 
     }
 
@@ -27,12 +28,13 @@ public class BinarySearch {
             if (num[mid] == key) {
                 return mid;
             }
-            if (num[mid] < key) {
+            if (num[mid] < key) { // right
                 start = mid + 1;
-            } else {
+            } else { // left
                 end = mid - 1;
             }
         }
+        return -1;
 
     }
 }
