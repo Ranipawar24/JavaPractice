@@ -12,5 +12,9 @@ public class BinarySearch {
      * mid> key Left 1st half end update
      * mid< key Right 2nd half start update
      */
+    public static void main(String[] args) {
+        int num[] = { 2, 4, 8, 10, 12, 14, 18 };
+        int key = 10;
 
+    }
 }
