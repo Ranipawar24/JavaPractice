@@ -17,4 +17,8 @@ public class BinarySearch {
         int key = 10;
 
     }
+
+    public static int binarySearch(int num[], int key) {
+
+    }
 }
