@@ -9,8 +9,8 @@ public class BinarySearch {
      * findmid
      * compare mid & key
      * mid== key Found
-     * mid> key Left 1st half
-     * mid< key Right 2nd half
+     * mid> key Left 1st half end update
+     * mid< key Right 2nd half start update
      */
 
 }
