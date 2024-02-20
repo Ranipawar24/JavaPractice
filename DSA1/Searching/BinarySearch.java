@@ -3,8 +3,9 @@ package DSA1.Searching;
 public class BinarySearch {
 
     // TIME COMPLEXCITY = O(LOG N)
-    //
+
     // prerequisite - sorted arrays
+
     // PSEUDO CODE
     /*
      * start= 0, end =-1
