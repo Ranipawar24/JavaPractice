@@ -28,6 +28,7 @@ public class BinarySearch {
 
         while (start <= end) {
             int mid = (start + end) / 2;
+
             // comparison
             if (num[mid] == key) {
                 return mid;
