@@ -30,6 +30,7 @@ public class BinarySearch {
             int mid = (start + end) / 2;
 
             // comparison
+
             if (num[mid] == key) {
                 return mid;
             }
