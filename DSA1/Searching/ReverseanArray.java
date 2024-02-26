@@ -6,6 +6,7 @@ public class ReverseanArray {
     }
 
     public static void reverse(int num[]) {
+        int start = 0, end = num.length - 1;
 
     }
 }
