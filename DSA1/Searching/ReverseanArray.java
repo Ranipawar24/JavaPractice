@@ -4,4 +4,8 @@ public class ReverseanArray {
     public static void main(String[] args) {
         int num[] = { 2, 4, 8, 10, 9 };
     }
+
+    public static void reverse(int num[]) {
+
+    }
 }
