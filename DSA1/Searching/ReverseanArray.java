@@ -3,6 +3,8 @@ package DSA1.Searching;
 public class ReverseanArray {
     public static void main(String[] args) {
         int num[] = { 2, 4, 8, 10, 9 };
+        reverse(num);
+
     }
 
     public static void reverse(int num[]) {
@@ -13,7 +15,9 @@ public class ReverseanArray {
             int temp = num[end];
             num[end] = num[start];
             num[start] = temp;
+
             start++;
+            end--;
 
         }
     }
