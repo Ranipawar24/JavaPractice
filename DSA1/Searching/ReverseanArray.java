@@ -13,6 +13,8 @@ public class ReverseanArray {
             int temp = num[end];
             num[end] = num[start];
             num[start] = temp;
+            start++;
+
         }
     }
 }
