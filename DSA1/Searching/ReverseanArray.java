@@ -5,7 +5,7 @@ public class ReverseanArray {
         int num[] = { 2, 4, 8, 10, 9 };
         reverse(num);
         for (int i = 0; i < num.length; i++) {
-            System.out.println(num[i] + " ");
+            System.out.print(num[i] + " ");
         }
 
     }
