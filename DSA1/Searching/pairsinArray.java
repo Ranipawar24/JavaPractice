@@ -5,4 +5,9 @@ public class pairsinArray {
         int num[] = { 2, 4, 8, 6, 7, 9 };
 
     }
+
+}
+
+public static void Array(int num[]) {
+    
 }
