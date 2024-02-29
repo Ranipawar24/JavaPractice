@@ -11,6 +11,8 @@ public class pairsinArray {
 
 }
 
-public static void Array(int num[]) {
-    
+public static void printPairs(int num[]) {
+    for (int i = 0; i < num.length; i++) {
+        
+    }
 }
