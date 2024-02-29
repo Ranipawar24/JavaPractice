@@ -14,6 +14,8 @@ public class pairsinArray {
 public static void printPairs(int num[]) {
     for (int i = 0; i < num.length; i++) {
         int curr = num[i];
-        fo
+        for (int j = 0; j < num.length; j++) {
+            
+        }
     }
 }
