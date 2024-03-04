@@ -12,7 +12,7 @@ public static void printPairs(int num[]) {
     for (int i = 0; i < num.length; i++) {
         int curr = num[i];
         for (int j = 0; j < num.length; j++) {
-            System.out.println("(" +);
+            System.out.println("(" + ")");
         }
     }
 }
