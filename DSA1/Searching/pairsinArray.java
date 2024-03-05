@@ -14,6 +14,7 @@ public class pairsinArray {
                 System.out.print("(" + curr + "," + num[j] + ") ");
             }
             System.out.println();
+            
         }
     }
 }
