@@ -8,7 +8,7 @@ public class MergeSort {
     }
 
     public static void mergearray(int si, int ei) {
-        
+        System.out.println();
 
     }
 
