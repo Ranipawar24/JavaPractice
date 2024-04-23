@@ -8,6 +8,8 @@ public class BubbleSort {
          * adjacent elements and swap them if they are not in correct order.
          */
 
+        System.out.println();
+
     }
 
     public static void bubbleSort(int[] a) {
