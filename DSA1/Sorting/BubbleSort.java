@@ -16,6 +16,7 @@ public class BubbleSort {
     public static void bubbleSort(int[] a) {
 
         int n = a.length;
+        // n-1 iterations
 
     }
 
