@@ -10,7 +10,6 @@ public class BubbleSort {
          * In every iteration the largest no. in part of array to be process gets its
          * correct positions.
          */
-
     }
 
     public static void bubbleSort(int[] a) {
