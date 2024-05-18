@@ -19,6 +19,10 @@ public class BubbleSort {
         // n-1 iterations
 
         for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                // last i elements are already at correct positions, so no need to check them
+
+            }
 
         }
 
