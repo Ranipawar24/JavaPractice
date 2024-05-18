@@ -22,6 +22,14 @@ public class BubbleSort {
             for (int j = 0; j < n - i - 1; j++) {
                 // last i elements are already at correct positions, so no need to check them
 
+                if (a[j] > a[j + 1]) {
+                    // swap a[j], a[j+1]
+                    int temp = a[j];
+                    a[j] = a[j + 1];
+                    a[j + 1] = temp;
+
+                }
+
             }
 
         }
