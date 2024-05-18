@@ -11,6 +11,12 @@ public class BubbleSort {
          * correct positions.
          */
 
+        int[] a = { 7, 8, 4, 5, 3, 2 };
+        bubbleSort(a);
+        for (int i : a) {
+            System.out.print(i + " ");
+        }
+
     }
 
     public static void bubbleSort(int[] a) {
