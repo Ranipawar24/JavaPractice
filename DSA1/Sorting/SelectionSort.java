@@ -20,10 +20,14 @@ public class SelectionSort {
             // find the min index of unsorted part of the array
             for (int j = 0; j < n; j++) {
                 if (arr[j] < arr[min_index]) {
+                    min_index = j;
 
                 }
 
             }
+
+            // swap curr element and min element - curr index i will have correct element
+            //
 
         }
 
