@@ -28,6 +28,10 @@ public class SelectionSort {
 
             // swap curr element and min element - curr index i will have correct element
 
+            int temp = arr[i];
+            arr[i] = arr[min_index];
+            arr[min_index] = temp;
+
         }
 
     }
