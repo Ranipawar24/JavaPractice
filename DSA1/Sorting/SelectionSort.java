@@ -16,9 +16,10 @@ public class SelectionSort {
     public static void selectionSort(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) { // i represents the current index
+
             int min_index = i;
             // find the min index of unsorted part of the array
-            for (int j = 0; j < n; j++) {
+            for (int j = i + 1; j < n; j++) {
                 if (arr[j] < arr[min_index]) {
                     min_index = j;
 
