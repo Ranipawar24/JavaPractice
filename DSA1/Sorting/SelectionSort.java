@@ -27,7 +27,6 @@ public class SelectionSort {
             }
 
             // swap curr element and min element - curr index i will have correct element
-            //
 
         }
 
