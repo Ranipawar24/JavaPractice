@@ -5,6 +5,7 @@ public class SelectionSort {
 
         int[] arr = { 7, 4, 5, 1, 2 };
         selectionSort(arr);
+
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
 
@@ -13,6 +14,11 @@ public class SelectionSort {
     }
 
     public static void selectionSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) { // i represents the current index
+            int min_index = i;
+
+        }
 
     }
 
