@@ -22,6 +22,7 @@ public class SelectionSort {
             int min_index = i;
 
             // find the min index of unsorted part of the array
+            
             for (int j = i + 1; j < n; j++) {
                 if (arr[j] < arr[min_index]) {
 
