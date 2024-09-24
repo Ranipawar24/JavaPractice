@@ -17,6 +17,11 @@ public class MergeSort {
     }
 
     public static void merge(int[] arr, int l, int mid, int r) {
+        int n1 = mid - l + 1;
+        int n2 = r - mid;
+        int[] left = new int[n1];
+        int[] right = new int[n2];
+        int i, j, k;
 
     }
 
