@@ -9,13 +9,18 @@ public class MergeSort {
         int[] arr = { 4, 1, 3, 5, 2 };
         int n = arr.length;
         mergeSort(arr, 0, n - 1);
+        displayArr(arr);
 
     }
 
     public static void mergeSort(int[] arr, int l, int r) {
 
-        System.out.println();
+    }
 
+    public static void displayArr(int[] arr) {
+        for (int val : arr) {
+            System.out.println(val + " ");
+        }
     }
 
 }
