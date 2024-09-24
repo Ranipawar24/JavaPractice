@@ -8,7 +8,10 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] arr = { 4, 1, 3, 5, 2 };
         int n = arr.length;
+        System.out.println("Array before sorting");
+        displayArr(arr);
         mergeSort(arr, 0, n - 1);
+        System.out.println("Array after sorting");
         displayArr(arr);
 
     }
