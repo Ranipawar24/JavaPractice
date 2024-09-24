@@ -22,6 +22,13 @@ public class MergeSort {
         int[] left = new int[n1];
         int[] right = new int[n2];
         int i, j, k;
+        for (i = 0; i < n1; i++)
+            left[i] = arr[l + i];
+        for (j = 0; j < n2; j++)
+            right[j] = arr[mid + 1 + j];
+        i = 0;
+        j = 0;
+        k = l;
 
     }
 
