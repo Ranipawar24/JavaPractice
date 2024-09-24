@@ -6,12 +6,13 @@ public class MergeSort {
     // sort the 2 subarrays seperately using recursion
     // merge the 2 sorted subarray to create an overall sorted arrays.
     public static void main(String[] args) {
-
-        System.out.println();
+        int[] arr = { 4, 1, 3, 5, 2 };
+        int n = arr.length;
+        mergeSort(arr, 0, n - 1);
 
     }
 
-    public static void mergearray(int si, int ei) {
+    public static void mergeSort(int[] arr, int l, int r) {
 
         System.out.println();
 
