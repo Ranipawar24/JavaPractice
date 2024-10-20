@@ -10,4 +10,8 @@ public class question1 {
 
     }
 
+    public static void swap(int a, int b) {
+
+    }
+
 }
