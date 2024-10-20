@@ -12,9 +12,17 @@ public class question1 {
     }
 
     public static void swap(int a, int b) {
+        System.out.println("Values before swap");
         System.out.println("a:" + a);
-        System.out.println("b:+b");
+        System.out.println("b:" + b);
+
         int temp = a; // 9
+
+        a = b;
+        b = temp;
+        System.out.println("Values After swap");
+        System.out.println("a:" + a);
+        System.out.println("b:" + b);
 
     }
 
