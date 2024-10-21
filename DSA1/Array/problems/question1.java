@@ -25,5 +25,6 @@ public class question1 {
         System.out.println("b:" + b);
 
     }
+    
 
 }
