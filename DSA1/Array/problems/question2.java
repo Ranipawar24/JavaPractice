@@ -7,6 +7,7 @@ public class question2 {
         int a = 9;
         int b = 3;
         int[] arr = { 1, 2, 3, 4, 5 };
+
         swapWithoutTemp(a, b);
 
     }
