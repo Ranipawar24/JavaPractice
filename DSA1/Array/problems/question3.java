@@ -10,6 +10,9 @@ public class question3 {
     }
 
     public static void reverseArray(int arr[]) {
+        int n = arr.length;
+        int ans[] = new int[n];
+        int j = 0;
 
     }
 
