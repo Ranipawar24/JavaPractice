@@ -14,6 +14,8 @@ public class question3 {
         int ans[] = new int[n];
         int j = 0;
 
+        // traverse oroginal array in reverse direction
+
     }
 
 }
