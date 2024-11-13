@@ -25,6 +25,7 @@ public class question3 {
             ans[j++] = arr[i];
 
         }
+        
         return ans;
 
     }
