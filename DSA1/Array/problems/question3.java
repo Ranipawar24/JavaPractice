@@ -27,7 +27,6 @@ public class question3 {
         }
         return ans;
 
-        //
 
     }
 
