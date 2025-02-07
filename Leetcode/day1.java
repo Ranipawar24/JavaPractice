@@ -1,6 +1,7 @@
 package Leetcode;
 
 public class day1 {
+    // Q 1. Palindrome Number ?
     public static void main(String[] args) {
         day1 obj = new day1(); // Create an object to call the isPalindrome method
         int testNumber = 121; // Example number to test
