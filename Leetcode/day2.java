@@ -1,6 +1,8 @@
 package Leetcode;
 
 public class day2 {
+
+    // Q 2. Power of two ?
     public static void main(String[] args) {
         day2 obj = new day2();
         System.out.println(obj.isPowerOfTwo(8));
