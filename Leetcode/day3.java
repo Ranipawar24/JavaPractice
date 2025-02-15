@@ -18,6 +18,7 @@ public class day3 {
             secTerm = thirdTerm;
 
         }
+        return firstTerm;
 
     }
 
