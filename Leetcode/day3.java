@@ -15,6 +15,7 @@ public class day3 {
         for (int i = 1; i <= n; i++) {
             int thirdTerm = firstTerm + secTerm;
             firstTerm = secTerm;
+            secTerm = thirdTerm;
 
         }
 
