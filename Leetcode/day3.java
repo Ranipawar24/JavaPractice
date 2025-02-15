@@ -4,7 +4,10 @@ public class day3 {
     // Q 3.Fibonacci Number ?
     public static void main(String[] args) {
         day3 obj = new day3();
-        System.out.println(obj.fib(10));
+        for (int i = 0; i <= 10; i++) {
+            System.out.println("Fibonacci of " + i + " is: " + obj.fib(i));
+        }
+        // System.out.println(obj.fib(10));
 
     }
 
