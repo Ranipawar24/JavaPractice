@@ -28,6 +28,6 @@ public class day3 {
         }
         return firstTerm;
 
-    }
+    }//
 
 }
