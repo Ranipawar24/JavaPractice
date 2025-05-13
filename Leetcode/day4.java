@@ -13,5 +13,17 @@ public class day4 {
       return 1;
     }
 
+    int firstTerm = 0;
+    int secondTerm = 1;
+
+    for (int i = 1; i <= n; i++) {
+      int thirdTerm = firstTerm + secondTerm;
+
+      firstTerm = secondTerm;
+      secondTerm = thirdTerm;
+
+    }
+    return firstTerm;
+
   }
 }
