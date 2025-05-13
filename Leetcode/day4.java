@@ -5,4 +5,8 @@ public class day4 {
     // Fibonacci Number
 
   }
+
+  public int fib(int n) {
+
+  }
 }
