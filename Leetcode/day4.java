@@ -4,6 +4,10 @@ public class day4 {
   public static void main(String[] args) {
     // Fibonacci Number
 
+    day4 obj = new day4();
+    int result = obj.fib(7); // Example: F(7) = 13
+    System.out.println(result);
+
   }
 
   public int fib(int n) {
